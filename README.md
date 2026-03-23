@@ -103,5 +103,4 @@ O site será aberto no navegador e todas as alterações poderão ser visualizad
  
 ## Deploy
  
-🔗 https://seu-usuario.github.io/seu-repositorio
- 
+🔗 https://blog-pessoal-mocha.vercel.app/ 
