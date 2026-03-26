@@ -2,6 +2,17 @@
 <html lang="pt-br">
 
 <head>
+
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name=" author" content="Maya Monteiro" />
@@ -10,6 +21,9 @@
     <meta name="robots" content="index,follow" />
 
     <link rel="icon" type="image/svg+xml" href="./assests/img/favicon.svg" />
+
+    <link rel="stylesheet" href="./assests/css/style.css">
+
     <title>Mayara Monteiro</title>
 </head>
 
@@ -18,18 +32,18 @@
     <header>
 
         <div class="menu-content">
-        <!-- Título -->
-        <a href="index.html" id="titulo">Blog Pessoal</a>
+            <!-- Título -->
+            <a href="index.html" id="titulo">Maya Monteiro</a>
 
-        <!-- Navegação MENU -->
-        <nav>
-            <ul class="menu-list">
-                <li><a href="#hero">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contatos</a></li>
-            </ul>
-        </nav>
+            <!-- Navegação MENU -->
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contatos</a></li>
+                </ul>
+            </nav>
 
         </div>
 
@@ -39,12 +53,12 @@
     <main>
 
         <!--HERO-->
-        <section id"hero" class="section-container hero-container">
+        <section id="hero" class="section-container hero-container">
 
             <article class="hero-content">
                 <span>👋 Oi, eu sou a Maya Monteiro</span>
-                <h1>Desenvolvedor Full Stack</h1>
-                <p>Desenvolvedor Full Stack focado em desenvolver aplicações modernas,
+                <h1>Desenvolvedora Full Stack</h1>
+                <p>Focada em desenvolver aplicações modernas,
                     priorizando performance, escalabilidade e código limpo.</p>
 
                 <div class="buttons-container">
@@ -55,36 +69,40 @@
 
             <!-- Img HERO -->
             <figure class="hero-image">
-                <img src="./assests/img/avatar_dev_woman.svg" alt=" Foto do autor do site" class="float-inimat">
+                <picture>
+                    <!-- Mobile -->
+                    <source media="(max-width: 480px)" srcset="./assests/img/Mayara-TI-horizontal.png">
+
+                    <!-- Web -->
+                    <img src="./assests/img/Mayara-TI.png" alt="Foto do autor do site" class="float-animation">
+                </picture>
 
             </figure>
         </section>
 
         <!--ABOUT-->
-        <section id"about" class="section-container about-container">
+        <section id="about" class="section-container about-container">
             <figure class="about-image">
-                <img src="./assests/img/foto_dev_woman.svg" alt="Foto perfil do autor">
+                <img src="./assests/img/avatar_dev_woman.svg" alt="Foto perfil do autor">
             </figure>
 
             <article class="about-content">
-                <h2>Sobre mim</h2>
-                <p>Desenvolvedora Full Stack com experiência no desenvolvimento
-                    e aplicações web e integração de APIs REST,
-                    atuando de ponta a ponta. Domínio em JavaScript, React, Angular,
-                    Node.js, NestJS, PHP (Laravel) e MySQL.
-                    Possui também conhecimentos em Python aplicados a dados.</p>
+                <h2>Quem sou?</h2>
+                <p><strong>Desenvolvedora Full Stack | Carioca</strong></p>
 
-                <p>Perfil analítico, proativo e colaborativo,
-                    com forte atuação na resolução de problemas e mentalidade de
-                    aprendizado contínuo.</p>
+                <p> Experiência com desenvolvimento de aplicações web e integração de APIs REST, utilizando tecnologias
+                    como React, Angular, Node.js, NestJS, PHP e MySQL.
 
-                <!-- GitHub + Curriculo e dados do GH -->
+                    Perfil analítico, proativa e colaborativa, com foco em resolução de problemas e aprendizado
+                    contínuo.
+
+                </p> <!-- GitHub + Curriculo e dados do GH -->
                 <div class="about-buttons-data">
 
                     <!-- LINKS -->
                     <div class="buttons-container">
                         <a href="#" target="_blank" class="botao">GitHub</a>
-                        <a href="#" target="_blank" "botao-outline"> Curriculo </a>
+                        <a href="#" target="_blank" class="botao-outline"> Curriculo </a>
                     </div>
 
                     <!-- DADOS -->
@@ -109,12 +127,12 @@
         </section>
 
         <!--PROJECTS-->
-        <section id"projects" class="section-container projects-container">
+        <section id="projects" class="section-container projects-container">
 
             <h2>Meus Projetos</h2>
 
             <!-- Swiper Container -->
-            <div class="swaiper projects-swiper">
+            <div class="swiper projects-swiper">
                 <div class="swiper-wrapper">
                     <figure class="swiper-slide">
                         <article class="project-card">
@@ -137,8 +155,8 @@
 
                                 <!-- Links do projeto -->
                                 <div class="project-buttons">
-                                    <a href="#" target="_blank" class="botao-sm"> GitHub </a>
-                                    <a href="#" target="_blank" class="botao-outline botao sm"> Deploy </a>
+                                    <a href="#" target="_blank" class="botao botao-sm"> GitHub </a>
+                                    <a href="#" target="_blank" class="botao-outline botao-sm"> Deploy </a>
                                 </div>
 
 
@@ -151,17 +169,16 @@
             </div>
 
             <!-- Botões de Navegação -->
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
             <!-- paginação -->
             <div class="swiper-pagination"></div>
 
-            </div>
         </section>
 
         <!--CONTACT-->
-        <section id"contact" class="section-container contact-container">
+        <section id="contact" class="section-container contact-container">
 
             <!-- Redes adicionais -->
 
@@ -171,11 +188,12 @@
 
                 <div class="social-container">
                     <a href="#" target="_blank" class="social-icon" aria-label="Linkedin">
-                        <img src="./assests//icons/social/linkedin.svg" alt="">
+                        <i class="fa-brands fa-linkedin"></i>
+
                     </a>
 
                     <a href="#" target="_blank" class="social-icon" aria-label="GitHub">
-                        <img src="./assests//icons/social/github.svg" alt="">
+                        <i class="fa-brands fa-square-github"></i>
                     </a>
                 </div>
             </article>
@@ -195,7 +213,7 @@
                 <input id="assunto" name="assunto" type="text" placeholder="Digite o Assunto completo">
                 <span id="erro-assunto"></span>
 
-                <label for="mensagem">Mensgem</label>
+                <label for="mensagem">Mensagem</label>
                 <textarea id="mensagem" name="mensagem" placeholder="Digite a sua mensagem"></textarea>
                 <span id="erro-mensagem"></span>
 
@@ -210,14 +228,22 @@
     <!-- Rodapé -->
     <footer class="footer">
         <div class="footer-bottom">
-            <div class="footer-divider"></div>
+
+            <div class="footer-divisao"></div>
+
             <div class="footer-bottom-content">
+
                 <p>&copy; 2026 Maya Monteiro. Todos os direitos reservados.</p>
-                <div class="footer-bottom-links">
-                    <a href="#">Termos de Uso</a>
-                    <a href="#">Política de Privacidade</a>
-                    <a href="#topo">Voltar ao topo ↑</a>
-                </div>
+
+                <p class="footer-dev">
+                    Desenvolvido com
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                </p>
+
+                <a href="#topo" class="footer-topo">↑ Voltar ao topo</a>
+
             </div>
         </div>
     </footer>
