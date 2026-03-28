@@ -540,6 +540,14 @@ header a:hover {
 
 /*Redes Sociais*/
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .contact-info h2 {
     margin-bottom: var(--spacing-md);
 }
@@ -567,7 +575,7 @@ header a:hover {
 }
 
 .social-icon i {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--green-800);
     transition: 0.3s ease;
 
@@ -848,7 +856,7 @@ RESPONSIVIDADE TABLET
 
     .data-container {
         justify-content: center;
-        width: 100%;
+        width: 156%;
     }
 
     /* Projects*/

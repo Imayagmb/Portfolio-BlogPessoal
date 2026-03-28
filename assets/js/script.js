@@ -81,6 +81,7 @@ async function getProjectsGitHub() {
         // CORES E ÍCONES DAS LINGUAGENS
         const linguagens = {
             'JavaScript': { icone: 'javascript' },
+            'React': { icone: 'react' },
             'TypeScript': { icone: 'typescript' },
             'Python': { icone: 'python' },
             'Java': { icone: 'java' },
