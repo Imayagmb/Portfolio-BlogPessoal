@@ -79,13 +79,13 @@ Para executar o projeto em ambiente local, siga os passos abaixo.
 1. Clone o repositório:
  
    ```bash
-   git clone https://github.com/imayagmb/portfolio-BlogPessoal.git
+   git clone https://github.com/imayagmb/Dev-portfolio.git
    ```
  
 2. Acesse a pasta do projeto:
  
    ```bash
-   cd seu-repositorio
+   cd dev-portfolio
    ```
  
 3. Abra o projeto no Visual Studio Code:
@@ -102,4 +102,4 @@ O site será aberto no navegador e todas as alterações poderão ser visualizad
  
 ## Deploy
  
-🔗 https://blog-pessoal-mocha.vercel.app/ 
+🔗 https://dev-portfolio-maya.vercel.app/
